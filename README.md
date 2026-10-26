@@ -10,7 +10,7 @@ TypeScript · Angular · RxJS · Architecture & Performance
 - **Специализация:** Разработка SPA/SSR приложений, проектирование масштабируемой фронтенд-архитектуры и техническое руководство командой.
 - **Управление и разработка:** Опыт в роли Team Lead / Lead Frontend. Распределение задач, ревью кода, менторство джуниоров, синхронизация с сеньорами и бэкенд-командой. Действующий инженер: совмещаю менеджмент задач с написанием продакшен-кода.
 - **Формат работы:** Remote / Full-time.
-- **Контакты:** [Telegram](https://t.me/Goldiii_sudo) · [Email](mailto:goldiii.dev@gmail.com) · [GitHub](https://github.com/Goldiii-sudo)
+- **Контакты:** [Telegram](https://t.me/itsbanana2) ([резерв](https://t.me/Olenkaolga2)) · [Email](mailto:goldiii.dev@gmail.com) · [GitHub](https://github.com/Goldiii-sudo)
 
 ---
 
@@ -71,6 +71,6 @@ TypeScript · Angular · RxJS · Architecture & Performance
 
 ### Связь
 
-- **Telegram:** [@Goldiii_sudo](https://t.me/Goldiii_sudo)
+- **Telegram:** [@itsbanana2](https://t.me/itsbanana2) (резерв: [@Olenkaolga2](https://t.me/Olenkaolga2))
 - **GitHub:** [Goldiii-sudo](https://github.com/Goldiii-sudo)
 - **Email:** [goldiii.dev@gmail.com](mailto:goldiii.dev@gmail.com)
