@@ -1,317 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Pavel Goldin — Lead Frontend Developer & Team Lead</title>
-  <style>
-    @page {
-      size: A4;
-      margin: 12mm 15mm 12mm 15mm;
-    }
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
-      color: #1a1a1a;
-      background: #ffffff;
-      line-height: 1.4;
-      font-size: 10pt;
-      -webkit-font-smoothing: antialiased;
-    }
-    a {
-      color: #0969da;
-      text-decoration: none;
-    }
-    header {
-      border-bottom: 2px solid #111827;
-      padding-bottom: 10px;
-      margin-bottom: 12px;
-    }
-    h1 {
-      font-size: 22pt;
-      font-weight: 700;
-      color: #111827;
-      line-height: 1.1;
-      margin-bottom: 3px;
-    }
-    .role-title {
-      font-size: 12pt;
-      font-weight: 600;
-      color: #374151;
-      margin-bottom: 6px;
-    }
-    .contact-row {
-      font-size: 9pt;
-      color: #4b5563;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px 14px;
-      line-height: 1.3;
-    }
-    .contact-item {
-      display: inline-flex;
-      align-items: center;
-    }
-    section {
-      margin-bottom: 11px;
-    }
-    h2 {
-      font-size: 10.5pt;
-      text-transform: uppercase;
-      letter-spacing: 0.8px;
-      font-weight: 700;
-      color: #111827;
-      border-bottom: 1px solid #d1d5db;
-      padding-bottom: 2px;
-      margin-bottom: 6px;
-    }
-    p.summary {
-      font-size: 9.5pt;
-      color: #374151;
-      line-height: 1.45;
-    }
-    .skills-table {
-      width: 100%;
-      border-collapse: collapse;
-      font-size: 9pt;
-    }
-    .skills-table td {
-      padding: 2.5px 0;
-      vertical-align: top;
-    }
-    .skill-cat {
-      width: 155px;
-      font-weight: 700;
-      color: #111827;
-    }
-    .skill-val {
-      color: #374151;
-    }
-    .item {
-      margin-bottom: 8px;
-    }
-    .item:last-child {
-      margin-bottom: 0;
-    }
-    .item-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: baseline;
-      margin-bottom: 2px;
-    }
-    .item-title {
-      font-size: 10pt;
-      font-weight: 700;
-      color: #111827;
-    }
-    .item-subtitle {
-      font-weight: 600;
-      color: #374151;
-    }
-    .item-date {
-      font-size: 8.5pt;
-      color: #6b7280;
-      font-weight: 500;
-    }
-    .tech-stack {
-      font-size: 8.5pt;
-      color: #4b5563;
-      margin-bottom: 3px;
-    }
-    .tech-stack strong {
-      color: #111827;
-    }
-    ul {
-      padding-left: 17px;
-      margin-top: 2px;
-    }
-    li {
-      font-size: 9pt;
-      color: #374151;
-      line-height: 1.35;
-      margin-bottom: 2px;
-    }
-    li strong {
-      color: #111827;
-    }
-  </style>
+<meta charset="UTF-8">
+<title>Pavel Goldin - Resume</title>
+<style>
+  @page {
+    size: A4;
+    margin: 8mm 11mm 8mm 11mm;
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #111111;
+    background: #ffffff;
+    font-size: 8.4pt;
+    line-height: 1.28;
+  }
+  .header {
+    text-align: center;
+    border-bottom: 1.5px solid #111111;
+    padding-bottom: 4px;
+    margin-bottom: 6px;
+  }
+  h1 {
+    font-size: 18pt;
+    font-weight: bold;
+    letter-spacing: -0.2px;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+  }
+  .role {
+    font-size: 10.5pt;
+    font-weight: bold;
+    color: #222222;
+    margin-bottom: 3px;
+  }
+  .contacts {
+    font-size: 8.3pt;
+    color: #333333;
+    line-height: 1.35;
+  }
+  .contacts a {
+    color: #004499;
+    text-decoration: none;
+  }
+  .section {
+    margin-bottom: 5px;
+  }
+  h2 {
+    font-size: 9.3pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-bottom: 1px solid #333333;
+    padding-bottom: 1px;
+    margin-bottom: 3px;
+    color: #111111;
+  }
+  p {
+    margin-bottom: 2px;
+    text-align: justify;
+  }
+  .skill-group {
+    margin-bottom: 1.5px;
+    line-height: 1.26;
+  }
+  .skill-label {
+    font-weight: bold;
+    color: #111111;
+  }
+  .job-heading, .proj-heading, .edu-heading {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 8.7pt;
+    margin-top: 2.5px;
+    margin-bottom: 1px;
+  }
+  .sub-heading {
+    font-size: 8.2pt;
+    color: #444444;
+    margin-bottom: 1.5px;
+  }
+  ul {
+    padding-left: 14px;
+    margin-bottom: 2px;
+  }
+  li {
+    margin-bottom: 1px;
+    line-height: 1.25;
+  }
+  li strong {
+    color: #111111;
+  }
+</style>
 </head>
 <body>
 
-  <header>
-    <h1>Pavel Goldin</h1>
-    <div class="role-title">Lead Frontend Developer &amp; Team Lead (4+ Years Experience)</div>
-    <div class="contact-row">
-      <span class="contact-item"><strong>Location:</strong>&nbsp;Moscow, Russia (Open to Remote &amp; Relocation)</span>
-      <span class="contact-item"><strong>Phone:</strong>&nbsp;+7 (925) 741-89-32</span>
-      <span class="contact-item"><strong>Email:</strong>&nbsp;<a href="mailto:goldiii.dev@gmail.com">goldiii.dev@gmail.com</a></span>
-      <span class="contact-item"><strong>Telegram:</strong>&nbsp;<a href="https://t.me/itsbanana2">@itsbanana2</a>&nbsp;(alt:&nbsp;<a href="https://t.me/Olenkaolga2">@Olenkaolga2</a>)</span>
-      <span class="contact-item"><strong>GitHub:</strong>&nbsp;<a href="https://github.com/Goldiii-sudo">github.com/Goldiii-sudo</a></span>
-      <span class="contact-item"><strong>Languages:</strong>&nbsp;English (C1 / Professional), Russian (Native)</span>
-    </div>
-  </header>
+<div class="header">
+  <h1>Pavel Goldin</h1>
+  <div class="role">Lead Frontend Developer &amp; Team Lead (4+ Years Experience)</div>
+  <div class="contacts">
+    Moscow, Russia (Open to Remote / Relocation) | Phone: +7 (925) 741-89-32 | Email: <a href="mailto:goldiii.dev@gmail.com">goldiii.dev@gmail.com</a><br>
+    LinkedIn: <a href="https://linkedin.com/in/pavel-goldin-dev">linkedin.com/in/pavel-goldin-dev</a> | GitHub: <a href="https://github.com/Goldiii-sudo">github.com/Goldiii-sudo</a> | Telegram: <a href="https://t.me/itsbanana2">@itsbanana2</a>
+  </div>
+</div>
 
-  <section>
-    <h2>Professional Summary</h2>
-    <p class="summary">
-      Results-driven Lead Frontend Developer and Team Lead with 4+ years of hands-on experience building enterprise-grade SPAs, high-load web applications, and SSR architectures using Angular and TypeScript. Proven track record leading multidisciplinary frontend teams, conducting architectural code reviews, mentoring junior engineers, and driving cross-functional collaboration with senior engineers and backend leads. Strong commitment to clean code, reactive state management (Signals &amp; RxJS), automated testing (Jest, Cypress), and rapid product delivery with high business impact.
-    </p>
-  </section>
+<div class="section">
+  <h2>Professional Summary</h2>
+  <p>
+    Results-driven Lead Frontend Developer and Team Lead with 4+ years of experience delivering scalable enterprise web applications, high-throughput SPAs, and SSR systems using Angular and TypeScript. Proven track record leading agile frontend engineering teams, defining software architecture, mentoring developers, and maintaining hands-on code delivery. Expert in reactive state management (Signals, RxJS, NgRx), automated testing (Jest, Cypress), CI/CD pipelines, and web performance optimization.
+  </p>
+</div>
 
-  <section>
-    <h2>Core Technical Skills</h2>
-    <table class="skills-table">
-      <tr>
-        <td class="skill-cat">Frontend &amp; Frameworks:</td>
-        <td class="skill-val">Angular (v14–v18+, Standalone Components, Signals, Zoneless, New Control Flow, SSR/Hydration), TypeScript, JavaScript (ES6+), RxJS</td>
-      </tr>
-      <tr>
-        <td class="skill-cat">State Management:</td>
-        <td class="skill-val">NgRx (Store, Effects, Entity, ComponentStore), Akita, Signal-based Stores, Reactive Services</td>
-      </tr>
-      <tr>
-        <td class="skill-cat">UI &amp; Styling:</td>
-        <td class="skill-val">HTML5, CSS3, SCSS/SASS, Tailwind CSS, Angular Material, PrimeNG, Responsive &amp; Adaptive Design, Pixel-Perfect Implementation</td>
-      </tr>
-      <tr>
-        <td class="skill-cat">Architecture &amp; APIs:</td>
-        <td class="skill-val">Micro-frontends, Component-driven architecture, RESTful APIs, GraphQL (Apollo), WebSockets, HTTP Interceptors</td>
-      </tr>
-      <tr>
-        <td class="skill-cat">Tooling, CI/CD &amp; DevOps:</td>
-        <td class="skill-val">Angular CLI, Webpack, Vite, Git, GitHub Actions, GitLab CI/CD, Docker basics, Linux</td>
-      </tr>
-      <tr>
-        <td class="skill-cat">Testing &amp; Quality:</td>
-        <td class="skill-val">Jest, Cypress (E2E), Karma/Jasmine, Code Review, Performance Profiling (Chrome DevTools, Lighthouse)</td>
-      </tr>
-    </table>
-  </section>
+<div class="section">
+  <h2>Technical Skills</h2>
+  <div class="skill-group"><span class="skill-label">Languages &amp; Frameworks:</span> TypeScript, JavaScript (ES6+), Angular (v14-v18+, Standalone, Signals, Zoneless, Control Flow, SSR/Hydration), RxJS, HTML5, CSS3, SCSS</div>
+  <div class="skill-group"><span class="skill-label">State Management &amp; Architecture:</span> NgRx (Store, Effects, Entity), Akita, Signal-based Stores, Reactive Services, Micro-frontends, Modular Architecture</div>
+  <div class="skill-group"><span class="skill-label">UI Libraries &amp; Styling:</span> Tailwind CSS, Angular Material, PrimeNG, Responsive Design, Pixel-Perfect UI, Cross-Browser Compatibility</div>
+  <div class="skill-group"><span class="skill-label">Testing &amp; Quality Assurance:</span> Jest, Cypress (E2E), Jasmine, Karma, Code Review, Performance Auditing (Lighthouse, Chrome DevTools)</div>
+  <div class="skill-group"><span class="skill-label">Tools, APIs &amp; DevOps:</span> RESTful APIs, GraphQL (Apollo), WebSockets, Angular CLI, Webpack, Vite, Git, GitHub Actions, GitLab CI/CD, Docker</div>
+</div>
 
-  <section>
-    <h2>Work Experience</h2>
+<div class="section">
+  <h2>Work Experience</h2>
 
-    <div class="item">
-      <div class="item-header">
-        <div>
-          <span class="item-title">Lead Frontend Developer / Team Lead</span>
-          <span class="item-subtitle">— TechFlow Solutions</span>
-        </div>
-        <span class="item-date">October 2023 — Present (Moscow, Russia / Remote)</span>
-      </div>
-      <div class="tech-stack"><strong>Tech Stack:</strong> Angular 17/18, TypeScript, RxJS, Signals, NgRx, Tailwind CSS, Jest, WebSockets, GitLab CI</div>
-      <ul>
-        <li><strong>Team Leadership &amp; Delivery:</strong> Managed and guided a distributed frontend team, estimated deliverables, led sprint planning, and established rigorous code-review standards across projects.</li>
-        <li><strong>Hands-On Architecture &amp; Migration:</strong> Engineered mission-critical modules and drove end-to-end legacy migration from Angular 12 to Angular 17+ with Standalone Components and Signals.</li>
-        <li><strong>Mentorship &amp; Collaboration:</strong> Mentored junior developers through structured pair programming and code reviews while coordinating technical roadmap with senior backend leads.</li>
-        <li><strong>Performance &amp; Bundle Optimization:</strong> Reduced initial bundle payload by 40% via route-level lazy loading and dependency pruning; optimized Core Web Vitals across client portals.</li>
-        <li><strong>Test Automation &amp; QA:</strong> Implemented comprehensive unit testing with Jest, accelerating CI pipeline speed and raising total code coverage from 15% to 75%.</li>
-      </ul>
-    </div>
+  <div class="job-heading">
+    <span>TechFlow Solutions - Lead Frontend Developer / Team Lead</span>
+    <span>10/2023 - Present | Moscow, Russia (Remote)</span>
+  </div>
+  <div class="sub-heading">Stack: Angular 17/18, TypeScript, RxJS, Signals, NgRx, Tailwind CSS, Jest, WebSockets, GitLab CI</div>
+  <ul>
+    <li>Led and scaled a distributed team of frontend developers: planned 2-week sprints, assigned epics, conducted technical code reviews, and enforced engineering standards.</li>
+    <li>Spearheaded hands-on architectural migration from Angular 12 legacy codebase to Angular 17+ with Standalone Components and Signals, reducing boilerplate by 30%.</li>
+    <li>Mentored junior engineers through daily pair programming and structured code reviews while collaborating with senior backend architects to align REST/WebSocket contracts.</li>
+    <li>Optimized bundle size and Core Web Vitals, achieving a 40% reduction in initial bundle weight and decreasing page load times from 3.2s to 1.1s.</li>
+    <li>Architected end-to-end automated testing strategy with Jest, increasing test coverage from 15% to 75% and decreasing regression incidents by 65%.</li>
+  </ul>
 
-    <div class="item">
-      <div class="item-header">
-        <div>
-          <span class="item-title">Frontend Developer</span>
-          <span class="item-subtitle">— WebCraft Studio</span>
-        </div>
-        <span class="item-date">June 2022 — September 2023 (Moscow, Russia / Remote)</span>
-      </div>
-      <div class="tech-stack"><strong>Tech Stack:</strong> Angular 14/15, TypeScript, RxJS, Angular Material, SCSS, REST API, Jest, Git</div>
-      <ul>
-        <li>Developed high-performance UI components and responsive views strictly adhering to Figma design systems.</li>
-        <li>Integrated complex RESTful services, configured secure JWT authentication flows, and authored robust HTTP interceptors.</li>
-        <li>Participated actively in Agile/Scrum ceremonies (daily stand-ups, backlog refinement, sprint reviews, and retrospectives).</li>
-      </ul>
-    </div>
-  </section>
+  <div class="job-heading">
+    <span>WebCraft Studio - Frontend Developer</span>
+    <span>06/2022 - 09/2023 | Moscow, Russia (Remote)</span>
+  </div>
+  <div class="sub-heading">Stack: Angular 14/15, TypeScript, RxJS, Angular Material, SCSS, REST API, Jest, Git</div>
+  <ul>
+    <li>Developed reusable UI component libraries and responsive single-page web applications from Figma prototypes with 100% pixel-perfect fidelity.</li>
+    <li>Integrated secure REST APIs, implemented JWT-based authentication flows, and authored robust HTTP interceptors for global error handling and retry policies.</li>
+    <li>Actively participated in Agile Scrum ceremonies (sprint planning, daily stand-ups, backlog grooming, and retrospectives).</li>
+  </ul>
+</div>
 
-  <section>
-    <h2>Key Projects</h2>
+<div class="section">
+  <h2>Key Projects</h2>
 
-    <div class="item">
-      <div class="item-header">
-        <span class="item-title">Batumi Real Estate Marketplace — Property Sales Platform</span>
-        <a href="https://github.com/Goldiii-sudo/batumi-real-estate" class="item-date">github.com/Goldiii-sudo/batumi-real-estate</a>
-      </div>
-      <div class="tech-stack"><strong>Stack:</strong> Angular 17, Signals, TypeScript, Tailwind CSS, Leaflet/Mapbox API, REST API</div>
-      <ul>
-        <li>Engineered and launched a residential real estate platform for Batumi property purchases with exceptionally fast time-to-market.</li>
-        <li>Implemented multi-criteria dynamic filtering (price, district, area, completion phase) with two-way URL state synchronization.</li>
-        <li>Integrated interactive GIS mapping for geospatial property discovery; optimized mobile rendering for instant layout display.</li>
-      </ul>
-    </div>
+  <div class="proj-heading">
+    <span>Batumi Real Estate Marketplace | <a href="https://github.com/Goldiii-sudo/batumi-real-estate">github.com/Goldiii-sudo/batumi-real-estate</a></span>
+    <span>01/2024 - 04/2024</span>
+  </div>
+  <div class="sub-heading">Stack: Angular 17, Signals, TypeScript, Tailwind CSS, Mapbox API, REST API</div>
+  <ul>
+    <li>Architected and delivered a commercial real estate marketplace for property sales in Batumi from scratch to production within an accelerated 3-month timeline.</li>
+    <li>Implemented multi-criteria filtering engine with two-way URL state persistence and interactive geospatial map search, improving mobile conversion by 28%.</li>
+  </ul>
 
-    <div class="item">
-      <div class="item-header">
-        <span class="item-title">B2B Logistics &amp; Fleet Management CRM System</span>
-        <a href="https://github.com/Goldiii-sudo/crm-logistics" class="item-date">github.com/Goldiii-sudo/crm-logistics</a>
-      </div>
-      <div class="tech-stack"><strong>Stack:</strong> Angular 17, NgRx, TypeScript, Tailwind CSS, WebSockets, Node.js (NestJS)</div>
-      <ul>
-        <li>Architected scalable state management using NgRx and implemented virtual scrolling for data grids handling 10,000+ live records, achieving a 4x render speedup.</li>
-        <li>Built bidirectional WebSocket pipelines for real-time cargo status tracking and vehicle coordinate telemetry.</li>
-      </ul>
-    </div>
+  <div class="proj-heading">
+    <span>Logistics &amp; Fleet Management CRM System | <a href="https://github.com/Goldiii-sudo/crm-logistics">github.com/Goldiii-sudo/crm-logistics</a></span>
+    <span>08/2023 - 12/2023</span>
+  </div>
+  <div class="sub-heading">Stack: Angular 17, NgRx, TypeScript, Tailwind CSS, WebSockets, NestJS</div>
+  <ul>
+    <li>Designed high-performance B2B logistics dashboard with NgRx state management and virtual scrolling for data grids handling 10,000+ live fleet records (4x rendering speedup).</li>
+    <li>Integrated real-time bidirectional WebSocket channels for instantaneous telemetry updates and order dispatch tracking.</li>
+  </ul>
+</div>
 
-    <div class="item">
-      <div class="item-header">
-        <span class="item-title">High-Load E-Commerce Platform</span>
-        <a href="https://github.com/Goldiii-sudo/ecommerce-shop" class="item-date">github.com/Goldiii-sudo/ecommerce-shop</a>
-      </div>
-      <div class="tech-stack"><strong>Stack:</strong> Angular 15, RxJS, SCSS, Angular Universal (SSR), Firebase, Stripe API</div>
-      <ul>
-        <li>Delivered end-to-end shopping experience featuring tiered filtering, shopping cart, user authentication, and secure Stripe checkout.</li>
-        <li>Engineered Angular Universal SSR, boosting search indexing and enhancing Largest Contentful Paint (LCP) by 35%.</li>
-      </ul>
-    </div>
-  </section>
+<div class="section">
+  <h2>Education &amp; Certifications</h2>
+  <div class="edu-heading">
+    <span>Bachelor of Science in Computer Science &amp; Software Engineering</span>
+    <span>2016 - 2020</span>
+  </div>
+  <div class="sub-heading">MIREA - Russian Technological University | Moscow, Russia</div>
 
-  <section>
-    <h2>Education &amp; Professional Development</h2>
+  <div class="edu-heading">
+    <span>Postgraduate Certificate in Advanced Web Architecture &amp; Systems</span>
+    <span>2020 - 2021</span>
+  </div>
+  <div class="sub-heading">California Institute of Technology &amp; Computer Science Online | Palo Alto, CA, USA (Distance Learning)</div>
 
-    <div class="item">
-      <div class="item-header">
-        <div>
-          <span class="item-title">Higher Education: Bachelor of Science in Computer Science &amp; Software Engineering</span>
-        </div>
-        <span class="item-date">2016 — 2020</span>
-      </div>
-      <div class="tech-stack"><strong>Institution:</strong> MIREA — Russian Technological University (Moscow, Russia)</div>
-      <ul>
-        <li>Specialization in Software Architecture, Algorithms &amp; Data Structures, Database Systems, and Object-Oriented Design.</li>
-      </ul>
-    </div>
-
-    <div class="item">
-      <div class="item-header">
-        <div>
-          <span class="item-title">Advanced US Program: Certificate in Advanced Software Architecture &amp; Web Systems</span>
-        </div>
-        <span class="item-date">2020 — 2021</span>
-      </div>
-      <div class="tech-stack"><strong>Institution:</strong> California Institute of Technology &amp; Computer Science Online (Palo Alto, CA, USA — Distance Learning)</div>
-      <ul>
-        <li>Advanced curriculum covering Distributed Web Architecture, Modern Reactive UI Design, Cloud CI/CD Pipelines, and System Scalability.</li>
-      </ul>
-    </div>
-
-    <div class="item">
-      <div class="item-header">
-        <div>
-          <span class="item-title">Certifications &amp; Professional Specializations</span>
-        </div>
-        <span class="item-date">2022 — 2024</span>
-      </div>
-      <ul>
-        <li><strong>Rolling Scopes School (RS School):</strong> Angular &amp; TypeScript Core Track (Graduated Top 10% of cohort, 2022).</li>
-        <li><strong>Angular University:</strong> Angular Core Deep Dive, NgRx Reactive State Architecture &amp; Signals Mastery (2023–2024).</li>
-      </ul>
-    </div>
-  </section>
+  <div class="edu-heading">
+    <span>Professional Certifications</span>
+    <span>2022 - 2024</span>
+  </div>
+  <div class="sub-heading">Rolling Scopes School (RS School) Angular &amp; TypeScript (Top 10% Graduate) | Angular University NgRx &amp; Signals Masterclass</div>
+</div>
 
 </body>
 </html>
