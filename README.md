@@ -11,6 +11,7 @@ TypeScript · Angular · RxJS · Architecture & Performance
 - **Управление и разработка:** Опыт в роли Team Lead / Lead Frontend. Распределение задач, ревью кода, менторство джуниоров, синхронизация с сеньорами и бэкенд-командой. Действующий инженер: совмещаю менеджмент задач с написанием продакшен-кода.
 - **Формат работы:** Remote / Full-time.
 - **Контакты:** [Telegram](https://t.me/itsbanana2) ([резерв](https://t.me/Olenkaolga2)) · [Email](mailto:goldiii.dev@gmail.com) · [GitHub](https://github.com/Goldiii-sudo)
+- **PDF-версия:** [Скачать резюме (resume.pdf)](resume.pdf)
 
 ---
 

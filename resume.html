@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Павел — Frontend Engineer & Team Lead</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 14mm 16mm 14mm 16mm;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: #1a1a1a;
+      background: #ffffff;
+      line-height: 1.45;
+      font-size: 10.5pt;
+      -webkit-font-smoothing: antialiased;
+    }
+    a {
+      color: #0969da;
+      text-decoration: none;
+    }
+    header {
+      border-bottom: 2px solid #24292f;
+      padding-bottom: 12px;
+      margin-bottom: 14px;
+    }
+    h1 {
+      font-size: 22pt;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      color: #111827;
+      margin-bottom: 2px;
+    }
+    .role-title {
+      font-size: 12.5pt;
+      font-weight: 600;
+      color: #4b5563;
+      margin-bottom: 6px;
+    }
+    .contacts {
+      font-size: 9.5pt;
+      color: #4b5563;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .contacts span {
+      display: inline-flex;
+      align-items: center;
+    }
+    section {
+      margin-bottom: 13px;
+    }
+    h2 {
+      font-size: 11pt;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      font-weight: 700;
+      color: #111827;
+      border-bottom: 1px solid #e5e7eb;
+      padding-bottom: 3px;
+      margin-bottom: 8px;
+    }
+    .summary-text {
+      color: #374151;
+      font-size: 10pt;
+      line-height: 1.5;
+    }
+    .skills-grid {
+      display: grid;
+      grid-template-columns: 140px 1fr;
+      row-gap: 5px;
+      font-size: 9.5pt;
+    }
+    .skill-cat {
+      font-weight: 600;
+      color: #111827;
+    }
+    .skill-val {
+      color: #374151;
+    }
+    .job, .project {
+      margin-bottom: 10px;
+    }
+    .job:last-child, .project:last-child {
+      margin-bottom: 0;
+    }
+    .job-header, .project-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 2px;
+    }
+    .job-title, .project-title {
+      font-size: 10.5pt;
+      font-weight: 700;
+      color: #111827;
+    }
+    .company {
+      font-weight: 600;
+      color: #374151;
+    }
+    .date-badge {
+      font-size: 9pt;
+      color: #6b7280;
+      font-variant-numeric: tabular-nums;
+    }
+    .stack-line {
+      font-size: 9pt;
+      color: #4b5563;
+      margin-bottom: 3px;
+    }
+    .stack-label {
+      font-weight: 600;
+      color: #111827;
+    }
+    ul {
+      list-style-type: disc;
+      padding-left: 18px;
+      color: #374151;
+    }
+    li {
+      margin-bottom: 2px;
+      font-size: 9.5pt;
+      line-height: 1.4;
+    }
+    li strong {
+      color: #111827;
+    }
+    @media print {
+      body {
+        background: none;
+      }
+      .page-break {
+        page-break-before: always;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Павел</h1>
+    <div class="role-title">Frontend Engineer &amp; Team Lead</div>
+    <div class="contacts">
+      <span><strong>Telegram:</strong>&nbsp;<a href="https://t.me/itsbanana2">@itsbanana2</a>&nbsp;(резерв:&nbsp;<a href="https://t.me/Olenkaolga2">@Olenkaolga2</a>)</span>
+      <span>•</span>
+      <span><strong>Email:</strong>&nbsp;<a href="mailto:goldiii.dev@gmail.com">goldiii.dev@gmail.com</a></span>
+      <span>•</span>
+      <span><strong>GitHub:</strong>&nbsp;<a href="https://github.com/Goldiii-sudo">github.com/Goldiii-sudo</a></span>
+      <span>•</span>
+      <span><strong>Формат:</strong>&nbsp;Удаленно / Full-time</span>
+    </div>
+  </header>
+
+  <section>
+    <h2>О себе</h2>
+    <p class="summary-text">
+      Опытный фронтенд-инженер и Team Lead с глубокой экспертизой в экосистеме Angular и TypeScript. Специализируюсь на проектировании чистой архитектуры SPA/SSR приложений и оптимизации производительности. Практикующий технический лидер (hands-on): эффективно сочетаю распределение задач, код-ревью, менторство джуниоров и координацию с сеньорами с постоянным написанием чистого продакшен-кода.
+    </p>
+  </section>
+
+  <section>
+    <h2>Технический стек</h2>
+    <div class="skills-grid">
+      <div class="skill-cat">Core &amp; Frameworks</div>
+      <div class="skill-val">TypeScript, JavaScript (ES6+), Angular (14–18+, Standalone, Signals, New Control Flow, SSR/Hydration), RxJS</div>
+      
+      <div class="skill-cat">State Management</div>
+      <div class="skill-val">NgRx (Store, Effects, Entity), Akita, Services + Signals</div>
+
+      <div class="skill-cat">UI &amp; Styling</div>
+      <div class="skill-val">HTML5, CSS3, SCSS, Tailwind CSS, Angular Material, PrimeNG</div>
+
+      <div class="skill-cat">Tools &amp; CI/CD</div>
+      <div class="skill-val">Angular CLI, Webpack, Vite, Git, GitHub Actions, GitLab CI, REST API, WebSocket, GraphQL</div>
+
+      <div class="skill-cat">Testing &amp; QA</div>
+      <div class="skill-val">Jest, Cypress, Jasmine/Karma, Code Review, CI/CD pipelines</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Опыт работы</h2>
+
+    <div class="job">
+      <div class="job-header">
+        <div>
+          <span class="job-title">Lead Frontend Developer / Team Lead</span>
+          <span class="company">— TechFlow Solutions</span>
+        </div>
+        <span class="date-badge">Октябрь 2023 — Настоящее время</span>
+      </div>
+      <ul>
+        <li><strong>Управление командой:</strong> декомпозиция и приоритизация задач, планирование спринтов, проведение код-ревью.</li>
+        <li><strong>Hands-on разработка:</strong> проектирование масштабируемой архитектуры, миграция легаси-проектов с Angular 12 на Angular 17+ (Signals, Standalone).</li>
+        <li><strong>Менторство и взаимодействие:</strong> обучение и онбординг Junior-разработчиков, плотная связка с Senior-инженерами и backend-командой.</li>
+        <li><strong>Оптимизация и тестирование:</strong> сокращение initial bundle на 40%, внедрение unit-тестирования на Jest (рост покрытия с 15% до 75%).</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <div>
+          <span class="job-title">Frontend Developer</span>
+          <span class="company">— WebCraft Studio</span>
+        </div>
+        <span class="date-badge">Июнь 2022 — Сентябрь 2023</span>
+      </div>
+      <ul>
+        <li>Адаптивная вёрстка UI-компонентов и модулей по дизайн-системам Figma (Pixel Perfect).</li>
+        <li>Интеграция с REST API, обработка JWT-токенов, реализация интерсепторов и обработка ошибок.</li>
+        <li>Участие в Scrum-процессах, рефакторинг кодовой базы и оптимизация клиентского рендеринга.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Проекты</h2>
+
+    <div class="project">
+      <div class="project-header">
+        <span class="project-title">Batumi Real Estate — Сервис покупки и продажи недвижимости</span>
+        <a href="https://github.com/Goldiii-sudo/batumi-real-estate" class="date-badge">GitHub Project</a>
+      </div>
+      <div class="stack-line"><span class="stack-label">Стек:</span> Angular 17, Signals, TypeScript, Tailwind CSS, REST API</div>
+      <ul>
+        <li>Разработка и вывод в продакшен маркетплейса недвижимости в сжатые сроки (быстрый Time-to-Market).</li>
+        <li>Каталог объектов с быстрой многофакторной фильтрацией и синхронизацией состояния с URL.</li>
+        <li>Интеграция с интерактивной картой для поиска по районам; оптимизация под мобильные устройства.</li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <div class="project-header">
+        <span class="project-title">CRM-система для логистики (B2B)</span>
+        <a href="https://github.com/Goldiii-sudo/crm-logistics" class="date-badge">GitHub Project</a>
+      </div>
+      <div class="stack-line"><span class="stack-label">Стек:</span> Angular 17, NgRx, TypeScript, Tailwind CSS, WebSocket, NestJS</div>
+      <ul>
+        <li>Дашборд мониторинга транспорта в реальном времени с поддержкой WebSocket-соединения.</li>
+        <li>Внедрение виртуального скроллинга для таблиц на 10,000+ строк (ускорение рендера в 4 раза).</li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <div class="project-header">
+        <span class="project-title">E-commerce платформа</span>
+        <a href="https://github.com/Goldiii-sudo/ecommerce-shop" class="date-badge">GitHub Project</a>
+      </div>
+      <div class="stack-line"><span class="stack-label">Стек:</span> Angular 15, RxJS, SCSS, Firebase, Stripe API</div>
+      <ul>
+        <li>Каталог с многоуровневыми фильтрами, корзиной, чекаутом и оплатой через Stripe.</li>
+        <li>SSR (Angular Universal) для оптимизации SEO и улучшения LCP на 35%.</li>
+      </ul>
+    </div>
+  </section>
+
+</body>
+</html>
