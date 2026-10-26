@@ -1,91 +1,76 @@
-# 👋 Привет, я Паша!
+# Павел (Goldiii-sudo)
 
-**Middle Frontend Developer (Angular)** | TypeScript | RxJS | Signals
-
----
-
-### 📌 Обо мне
-
-- 🔭 **Текущая роль:** Middle Frontend Developer
-- 📍 **Локация:** Россия / Remote
-- 💼 **Формат:** Full-time, Удалёнка
-- 🚀 **Фокус:** Создание быстрых SPA, миграция на современные версии Angular (Signals, Zoneless), архитектура и оптимизация производительности
-- 💬 **Связь:** [Telegram](https://t.me/Goldiii_sudo) • [Email](mailto:goldiii.dev@gmail.com)
-- 🐙 **GitHub:** [github.com/Goldiii-sudo](https://github.com/Goldiii-sudo)
+**Frontend Engineer & Team Lead**  
+TypeScript · Angular · RxJS · Architecture & Performance
 
 ---
 
-### 🛠 Технические навыки
+### О себе
 
-| Категория | Стек и технологии |
-| :--- | :--- |
-| **Core Frontend** | Angular (14–18+, Standalone, Signals, New Control Flow, SSR/Hydration), TypeScript, JavaScript (ES6+, Async/Await, Event Loop), RxJS (RxJS Interop with Signals) |
-| **State Management** | NgRx (Store, Effects, Entity), Akita, Services + Signals |
-| **UI & Styling** | HTML5, CSS3, SCSS (BEM, Flexbox, Grid), Tailwind CSS, Angular Material, PrimeNG |
-| **Инструменты & Сборка** | Angular CLI, Webpack, Vite, Git, GitHub Actions, GitLab CI |
-| **Тестирование** | Jest, Cypress (E2E), Karma, Jasmine |
-| **API & Протоколы** | REST API, GraphQL (Apollo), WebSocket |
+- **Специализация:** Разработка SPA/SSR приложений, проектирование масштабируемой фронтенд-архитектуры и техническое руководство командой.
+- **Управление и разработка:** Опыт в роли Team Lead / Lead Frontend. Распределение задач, ревью кода, менторство джуниоров, синхронизация с сеньорами и бэкенд-командой. Действующий инженер: совмещаю менеджмент задач с написанием продакшен-кода.
+- **Формат работы:** Remote / Full-time.
+- **Контакты:** [Telegram](https://t.me/Goldiii_sudo) · [Email](mailto:goldiii.dev@gmail.com) · [GitHub](https://github.com/Goldiii-sudo)
 
 ---
 
-### 🚀 Проекты
+### Стек технологий
 
-#### 📊 CRM-система для логистики (B2B)
-> Дашборд для управления автопарком и отслеживания грузов в реальном времени.
+- **Core:** TypeScript, JavaScript (ES6+), Angular (14–18+, Standalone, Signals, New Control Flow, SSR/Hydration), RxJS
+- **State:** NgRx (Store, Effects, Entity), Akita, Services + Signals
+- **UI:** HTML5, CSS3, SCSS, Tailwind CSS, Angular Material
+- **Tooling & CI/CD:** Angular CLI, Webpack, Vite, Git, GitHub Actions, GitLab CI, REST API, WebSocket, GraphQL
+- **Quality:** Jest, Cypress, Code Review, CI пайплайны
 
-- **Стек:** Angular 17, NgRx, TypeScript, Tailwind CSS, Node.js (NestJS), WebSocket
+---
+
+### Проекты
+
+#### 1. Batumi Real Estate — Сервис покупки и продажи недвижимости
+Маркетплейс жилой недвижимости в Батуми. Проект реализован и выведен в продакшен в сжатые сроки (быстрый Time-to-Market).
+- **Стек:** Angular 17, Signals, TypeScript, Tailwind CSS, REST API
 - **Что сделано:**
-  - Спроектировал и реализовал архитектуру стейт-менеджмента на базе NgRx.
-  - Внедрил виртуальный скроллинг для таблиц с 10,000+ строк (ускорил рендер в 4 раза).
-  - Настроил двустороннее WebSocket-соединение для live-обновления статусов заказов.
-  - Перевел ключевые модули на Standalone Components и Signals.
-- 🔗 **Ссылки:** [GitHub Репозиторий](https://github.com/Goldiii-sudo/crm-logistics)
+  - Быстрый каталог апартаментов с фильтрацией (цена, районы, квадратура, этап сдачи) и сохранением состояния в URL.
+  - Интеграция с интерактивной картой для локационного поиска объектов.
+  - Оптимизация бандла и ресурсов для мгновенного рендера на мобильных устройствах.
+- **Ссылка:** [GitHub репозиторий](https://github.com/Goldiii-sudo/batumi-real-estate)
 
----
+#### 2. CRM-система для логистики (B2B)
+Дашборд управления автопарком и мониторинга грузоперевозок в реальном времени.
+- **Стек:** Angular 17, NgRx, TypeScript, Tailwind CSS, WebSocket, NestJS
+- **Что сделано:**
+  - Архитектура стейта на NgRx, виртуальный скроллинг для списков на 10,000+ строк (ускорение отрисовки в 4 раза).
+  - Двусторонний обмен через WebSocket для live-трекинга заказов.
+- **Ссылка:** [GitHub репозиторий](https://github.com/Goldiii-sudo/crm-logistics)
 
-#### 🛍 E-commerce платформа электроники
-> Полноценный интернет-магазин с каталогом товаров, фильтрацией, корзиной и чекаутом.
-
+#### 3. E-commerce платформа
+Интернет-магазин с каталогом, корзиной и чекаутом.
 - **Стек:** Angular 15, RxJS, SCSS, Firebase, Stripe API
 - **Что сделано:**
-  - Реализовал систему многофакторной фильтрации и поиска с сохранением состояния в URL.
-  - Настроил SSR (Angular Universal) для оптимизации SEO и метрик Core Web Vitals (LCP улучшен на 35%).
-  - Интегрировал платёжный шлюз Stripe и сервис авторизации Firebase Auth.
-- 🔗 **Ссылки:** [GitHub Репозиторий](https://github.com/Goldiii-sudo/ecommerce-shop)
+  - Полноценный чекаут, интеграция Stripe, SSR для SEO и ускорения LCP на 35%.
+- **Ссылка:** [GitHub репозиторий](https://github.com/Goldiii-sudo/ecommerce-shop)
 
 ---
 
-### 💼 Опыт работы
+### Опыт работы
 
-#### 🏢 TechFlow Solutions — Middle Frontend Developer
-📅 *Октябрь 2023 — Настоящее время (2.5 года)*
+#### Lead Frontend Developer / Team Lead — TechFlow Solutions
+*Октябрь 2023 — настоящее время*
+- Руководство фронтенд-направлением: планирование спринтов, декомпозиция задач, проведение код-ревью.
+- Hands-on разработка: архитектура ключевых модулей, перевод кодовой базы с Angular 12 на Angular 17+ (Signals, Standalone).
+- Менторство и работа в команде: онбординг джуниоров, плотная связка с сеньорами и техлидами смежных направлений.
+- Контроль качества: внедрение unit-тестов на Jest (рост покрытия с 15% до 75%), стандартизация кодстайла.
 
-- Разработка и поддержка корпоративных SaaS-решений на Angular.
-- Миграция легаси-кода с Angular 12 на Angular 17+ (переход на Standalone, синтаксис `@if` / `@for`).
-- Оптимизация бандла: уменьшил размер initial bundle на 40% с помощью lazy loading и чистки зависимостей.
-- Проведение код-ревью, написание гайдлайнов для команды, менторство двух Junior-разработчиков.
-- Настройка Unit-тестов (Jest), покрытие кода выросло с 15% до 75%.
-
-#### 🏢 WebCraft Studio — Junior Frontend Developer
-📅 *Июнь 2022 — Сентябрь 2023 (1.5 года)*
-
-- Вёрстка адаптивных интерфейсов по макетам из Figma (Pixel Perfect).
-- Разработка UI-компонентов (кнопки, модалки, формы) с использованием Angular Material.
-- Интеграция с REST API, работа с JWT-токенами и интерсепторами.
-- Исправление багов, рефакторинг, участие в дейли-митингах и планировании спринтов (Scrum).
+#### Frontend Developer — WebCraft Studio
+*Июнь 2022 — Сентябрь 2023*
+- Разработка интерфейсов и UI-компонентов по макетам.
+- Интеграция с REST API, авторизация (JWT), HTTP-интерсепторы.
+- Участие в Scrum-процессах, багфиксинг и рефакторинг.
 
 ---
 
-### 🎓 Курсы и самообразование
+### Связь
 
-- **RS School (Rolling Scopes)** — Angular Course (2022) — *Топ-10% потока*
-- **Angular University** — Angular Core Deep Dive & NgRx (2023)
-- **Udemy** — RxJS in Practice (2023)
-- Постоянно слежу за релизами Angular, изучаю RFC и статьи команды фреймворка.
-
----
-
-<p align="center">
-  <b>Открыт к предложениям и интересным проектам!</b><br>
-  Связаться: <a href="https://t.me/Goldiii_sudo">Telegram</a> • <a href="mailto:goldiii.dev@gmail.com">Email</a>
-</p>
+- **Telegram:** [@Goldiii_sudo](https://t.me/Goldiii_sudo)
+- **GitHub:** [Goldiii-sudo](https://github.com/Goldiii-sudo)
+- **Email:** [goldiii.dev@gmail.com](mailto:goldiii.dev@gmail.com)
