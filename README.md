@@ -9,9 +9,11 @@ TypeScript · Angular · RxJS · Architecture · Performance
 
 ### Контактная информация
 
-- **Локация:** Москва, Россия (Open to Remote / Relocation)
+- **Локация:** Москва, Россия | **Target:** Dubai & Abu Dhabi, UAE (On-site / Hybrid / Remote)
+- **UAE / Gulf Availability:** Гражданство: РФ | Виза: требуется спонсорство рабочей визы ОАЭ (готов к быстрому оформлению) | Notice Period: 0 дней (немедленный выход) | Релокация: 1–2 недели
 - **Телефон:** +7 (925) 741-89-32
 - **Email:** [goldiii.dev@gmail.com](mailto:goldiii.dev@gmail.com)
+- **LinkedIn:** [linkedin.com/in/pavel-goldin-dev](https://linkedin.com/in/pavel-goldin-dev)
 - **Telegram:** [@itsbanana2](https://t.me/itsbanana2) (резерв: [@Olenkaolga2](https://t.me/Olenkaolga2))
 - **GitHub:** [github.com/Goldiii-sudo](https://github.com/Goldiii-sudo)
 - **Языки:** Английский (C1 / Advanced, свободный технический и разговорный), Русский (Родной)
